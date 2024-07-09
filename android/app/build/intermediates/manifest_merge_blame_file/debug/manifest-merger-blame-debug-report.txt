@@ -1,0 +1,1273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.the007.the007percentapp"
+4    android:versionCode="37"
+5    android:versionName="2.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+14-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:6:5-75
+14-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:6:22-72
+15    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+15-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:7:5-76
+15-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:7:22-73
+16    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+16-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:8:5-75
+16-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:8:22-72
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:9:5-80
+17-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:11:5-79
+19-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.READ_CONTACTS" />
+20-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:12:5-72
+20-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:12:22-69
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:13:5-66
+21-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:13:22-63
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:14:5-80
+22-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:14:22-78
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:15:5-76
+23-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:15:22-74
+24
+25    <queries>
+25-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:70:5-76:15
+26        <intent>
+26-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:71:9-75:18
+27            <action android:name="android.intent.action.VIEW" />
+27-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:13-65
+27-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:21-62
+28
+29            <category android:name="android.intent.category.DEFAULT" />
+29-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:13-72
+29-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:23-69
+30
+31            <data android:mimeType="vnd.android.cursor.dir/contact" />
+31-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:13-71
+31-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:19-68
+32        </intent>
+33        <intent>
+33-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:10:9-16:18
+34            <action android:name="android.intent.action.GET_CONTENT" />
+34-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:11:13-72
+34-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:11:21-69
+35
+36            <category android:name="android.intent.category.OPENABLE" />
+36-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:13:13-73
+36-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:13:23-70
+37
+38            <data android:mimeType="*/*" />
+38-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:13-71
+38-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:19-68
+39        </intent>
+40        <intent>
+40-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:17:9-19:18
+41            <action android:name="android.media.action.IMAGE_CAPTURE" />
+41-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:18:13-73
+41-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:18:21-70
+42        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+43        <package android:name="com.google.android.apps.maps" />
+43-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:9-64
+43-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:33:18-61
+44    </queries>
+45
+46    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+46-->[com.facebook.flipper:flipper:0.182.0] /Users/logicrays/.gradle/caches/transforms-3/78f704610e1183a4605ce840ebe118d7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+46-->[com.facebook.flipper:flipper:0.182.0] /Users/logicrays/.gradle/caches/transforms-3/78f704610e1183a4605ce840ebe118d7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+47    <uses-permission android:name="android.permission.WAKE_LOCK" />
+47-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+47-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+48    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+48-->[:react-native-maps] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-81
+48-->[:react-native-maps] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-78
+49    <uses-permission android:name="com.android.vending.BILLING" />
+49-->[com.android.billingclient:billing-ktx:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/565aa4b63d6870ddccae3423299e996d/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:5-67
+49-->[com.android.billingclient:billing-ktx:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/565aa4b63d6870ddccae3423299e996d/transformed/jetified-billing-ktx-5.0.0/AndroidManifest.xml:9:22-64
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+50-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:5-77
+50-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:26:22-74
+51
+52    <uses-feature
+52-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:26:5-28:35
+53        android:glEsVersion="0x00020000"
+53-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:27:9-41
+54        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+54-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:28:9-32
+55    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+55-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+55-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+56    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+56-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:26:5-110
+56-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:26:22-107
+57    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+57-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:16:5-81
+57-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:16:22-78
+58    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+58-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:17:5-79
+58-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:17:22-76
+59    <uses-permission
+59-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:18:5-20:38
+60        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+60-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:19:9-73
+61        android:maxSdkVersion="30" /> <!-- For Xiaomi devices to enable heads-up notifications as default (https://github.com/invertase/notifee/issues/296) -->
+61-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:20:9-35
+62    <uses-permission
+62-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:22:5-24:38
+63        android:name="android.permission.ACCESS_NOTIFICATION_POLICY"
+63-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:23:9-69
+64        android:minSdkVersion="23" /> <!-- for android -->
+64-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:24:9-35
+65    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+66    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+67    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+68    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+69    <!-- for Samsung -->
+70    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+70-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+71    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+71-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+72    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+72-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+73    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+73-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+74    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+74-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+75    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+75-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+76    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+76-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+77    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+77-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+78    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+78-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+79    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+79-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+80    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+80-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+80-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+81    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+81-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+81-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+82    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+82-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+82-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+83    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+83-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+83-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+84    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+84-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+84-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+85    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+85-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+85-->[me.leolin:ShortcutBadger:1.1.22] /Users/logicrays/.gradle/caches/transforms-3/92a8cf84c91f30d41f50ebe0ae666ed8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+86
+87    <application
+87-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:17:5-68:19
+88        android:name="com.the007.the007percentapp.MainApplication"
+88-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:18:7-38
+89        android:allowBackup="true"
+89-->[me.relex:photodraweeview:1.0.0] /Users/logicrays/.gradle/caches/transforms-3/663a1c84be209b0c20736bc7dab27fc9/transformed/jetified-photodraweeview-1.0.0/AndroidManifest.xml:10:9-35
+90        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+90-->[androidx.core:core:1.7.0] /Users/logicrays/.gradle/caches/transforms-3/803793508ea0eca036596706bbf97b05/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+91        android:debuggable="true"
+92        android:icon="@mipmap/ic_launcher"
+92-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:20:7-41
+93        android:label="@string/app_name"
+93-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:19:7-39
+94        android:requestLegacyExternalStorage="true"
+94-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:22:9-52
+95        android:roundIcon="@mipmap/ic_launcher"
+95-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:21:7-46
+96        android:theme="@style/AppTheme"
+96-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:25:7-38
+97        android:usesCleartextTraffic="true" >
+97-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:23:9-44
+98        <activity
+98-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/debug/AndroidManifest.xml:8:9-111
+99            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+99-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/debug/AndroidManifest.xml:8:19-83
+100            android:exported="false" />
+100-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/debug/AndroidManifest.xml:8:84-108
+101        <activity
+101-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:26:7-39:18
+102            android:name="com.the007.the007percentapp.MainActivity"
+102-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:27:9-37
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+103-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:29:9-118
+104            android:exported="true"
+104-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:33:9-32
+105            android:label="@string/app_name"
+105-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:28:9-41
+106            android:launchMode="singleTask"
+106-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:30:9-40
+107            android:screenOrientation="portrait"
+107-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:34:9-45
+108            android:usesCleartextTraffic="true"
+108-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:32:9-44
+109            android:windowSoftInputMode="adjustPan|adjustResize" >
+109-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:31:9-61
+110            <intent-filter>
+110-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:35:9-38:25
+111                <action android:name="android.intent.action.MAIN" />
+111-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:13-65
+111-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:21-62
+112
+113                <category android:name="android.intent.category.LAUNCHER" />
+113-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:37:13-73
+113-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:37:23-70
+114            </intent-filter>
+115        </activity>
+116
+117        <meta-data
+117-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:40:7-131
+118            android:name="com.google.firebase.messaging.default_notification_icon"
+118-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:40:18-88
+119            android:resource="@drawable/notif_icon" />
+119-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:40:89-128
+120        <meta-data
+120-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:41:9-43:70
+121            android:name="com.google.android.geo.API_KEY"
+121-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:42:13-58
+122            android:value="AIzaSyCAgeMU4Pm6HG2pujS3IxBfnYkNEyLsSmc" />
+122-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:43:13-68
+123        <meta-data
+123-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:45:9-46:36
+124            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+124-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:45:21-97
+125            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+125-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:46:13-34
+126        <meta-data
+126-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:48:9-49:46
+127            android:name="com.dieam.reactnativepushnotification.notification_color"
+127-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:48:21-92
+128            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+128-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:49:13-44
+129        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+129-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:51:9-108
+129-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:51:19-105
+130        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+130-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:52:9-110
+130-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:52:19-107
+131        <receiver
+131-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:53:9-59:20
+132            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+132-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:53:19-115
+133            android:exported="false" >
+133-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:53:116-140
+134            <intent-filter>
+134-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:54:13-58:29
+135                <action android:name="android.intent.action.BOOT_COMPLETED" />
+135-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:17-79
+135-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:25-76
+136                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+136-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:17-82
+136-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:25-79
+137                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+137-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:17-81
+137-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:25-79
+138            </intent-filter>
+139        </receiver>
+140
+141        <service
+141-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:61:9-67:19
+142            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+142-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:62:13-107
+143            android:exported="false" >
+143-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:63:13-37
+144            <intent-filter>
+144-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:64:13-66:29
+145                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+145-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:17-78
+145-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:25-75
+146            </intent-filter>
+147        </service>
+148        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+148-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-111
+148-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-108
+149        <service
+149-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-19:19
+150            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+150-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-95
+151            android:exported="false" >
+151-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+152            <intent-filter>
+152-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:64:13-66:29
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:17-78
+153-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:25-75
+154            </intent-filter>
+155        </service>
+156
+157        <receiver
+157-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-28:20
+158            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+158-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-96
+159            android:exported="true"
+159-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-36
+160            android:permission="com.google.android.c2dm.permission.SEND" >
+160-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-73
+161            <intent-filter>
+161-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-27:29
+162                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+162-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-81
+162-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-78
+163            </intent-filter>
+164        </receiver>
+165
+166        <meta-data
+166-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-32:36
+167            android:name="firebase_messaging_auto_init_enabled"
+167-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-64
+168            android:value="true" />
+168-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-33
+169        <meta-data
+169-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-35:32
+170            android:name="com.google.firebase.messaging.default_notification_channel_id"
+170-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-89
+171            android:value="" />
+171-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-29
+172        <meta-data
+172-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-38:47
+173            android:name="com.google.firebase.messaging.default_notification_color"
+173-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-84
+174            android:resource="@color/white" />
+174-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-44
+175
+176        <provider
+176-->[:notifee_react-native] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:40
+177            android:name="io.invertase.notifee.NotifeeInitProvider"
+177-->[:notifee_react-native] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-68
+178            android:authorities="com.the007.the007percentapp.notifee-init-provider"
+178-->[:notifee_react-native] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-73
+179            android:exported="false"
+179-->[:notifee_react-native] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+180            android:initOrder="-100" />
+180-->[:notifee_react-native] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@notifee/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+181
+182        <meta-data
+182-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:36
+183            android:name="firebase_analytics_collection_enabled"
+183-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-65
+184            android:value="true" />
+184-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-33
+185        <meta-data
+185-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-17:37
+186            android:name="firebase_analytics_collection_deactivated"
+186-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-69
+187            android:value="false" />
+187-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-34
+188        <meta-data
+188-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:36
+189            android:name="google_analytics_adid_collection_enabled"
+189-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-68
+190            android:value="true" />
+190-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-33
+191        <meta-data
+191-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-23:36
+192            android:name="google_analytics_ssaid_collection_enabled"
+192-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-69
+193            android:value="true" />
+193-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-33
+194        <meta-data
+194-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-26:36
+195            android:name="google_analytics_default_allow_ad_personalization_signals"
+195-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-85
+196            android:value="true" />
+196-->[:react-native-firebase_analytics] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-33
+197        <meta-data
+197-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:36
+198            android:name="app_data_collection_default_enabled"
+198-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+199            android:value="true" />
+199-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-33
+200
+201        <service
+201-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:19
+202            android:name="com.google.firebase.components.ComponentDiscoveryService"
+202-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-89
+203            android:directBootAware="true"
+203-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+204            android:exported="false" >
+204-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+205            <meta-data
+205-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+206                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+206-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-120
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+209                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+209-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-firestore:23.0.4] /Users/logicrays/.gradle/caches/transforms-3/b6b4c99e7e0fe816caf02c67714f4a78/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:20:13-22:85
+212                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+212-->[com.google.firebase:firebase-firestore:23.0.4] /Users/logicrays/.gradle/caches/transforms-3/b6b4c99e7e0fe816caf02c67714f4a78/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:21:17-111
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-firestore:23.0.4] /Users/logicrays/.gradle/caches/transforms-3/b6b4c99e7e0fe816caf02c67714f4a78/transformed/jetified-firebase-firestore-23.0.4/AndroidManifest.xml:22:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-storage:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/3761de5e15a689c989ca013662b17f64/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+215                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+215-->[com.google.firebase:firebase-storage:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/3761de5e15a689c989ca013662b17f64/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-storage:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/3761de5e15a689c989ca013662b17f64/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+218                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+218-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+220            <meta-data
+220-->[com.google.android.gms:play-services-measurement-api:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/f4fa6e73f2a686056b1f895591612e4e/transformed/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:30:13-32:85
+221                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+221-->[com.google.android.gms:play-services-measurement-api:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/f4fa6e73f2a686056b1f895591612e4e/transformed/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:31:17-139
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.android.gms:play-services-measurement-api:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/f4fa6e73f2a686056b1f895591612e4e/transformed/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:32:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/65b01212109de571bd6cabc74b072e53/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+224                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+224-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/65b01212109de571bd6cabc74b072e53/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/65b01212109de571bd6cabc74b072e53/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-installations:17.0.0] /Users/logicrays/.gradle/caches/transforms-3/ffd3786f2cb15c412ecdb3d4db3b34ef/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+227                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+227-->[com.google.firebase:firebase-installations:17.0.0] /Users/logicrays/.gradle/caches/transforms-3/ffd3786f2cb15c412ecdb3d4db3b34ef/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-installations:17.0.0] /Users/logicrays/.gradle/caches/transforms-3/ffd3786f2cb15c412ecdb3d4db3b34ef/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+229        </service>
+230
+231        <provider
+231-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-22:38
+232            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+232-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-88
+233            android:authorities="com.the007.the007percentapp.reactnativefirebaseappinitprovider"
+233-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-86
+234            android:exported="false"
+234-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+235            android:initOrder="99" />
+235-->[:react-native-firebase_app] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-35
+236        <provider
+236-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+237            android:name="com.imagepicker.ImagePickerProvider"
+237-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+238            android:authorities="com.the007.the007percentapp.imagepickerprovider"
+238-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+239            android:exported="false"
+239-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+240            android:grantUriPermissions="true" >
+240-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+241            <meta-data
+241-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+242                android:name="android.support.FILE_PROVIDER_PATHS"
+242-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+243                android:resource="@xml/imagepicker_provider_paths" />
+243-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+244        </provider>
+245        <provider
+245-->[:react-native-webview] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+246            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+246-->[:react-native-webview] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+247            android:authorities="com.the007.the007percentapp.fileprovider"
+247-->[:react-native-webview] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+248            android:exported="false"
+248-->[:react-native-webview] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+249            android:grantUriPermissions="true" >
+249-->[:react-native-webview] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+250            <meta-data
+250-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+251                android:name="android.support.FILE_PROVIDER_PATHS"
+251-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+252                android:resource="@xml/file_provider_paths" />
+252-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+253        </provider>
+254
+255        <meta-data
+255-->[com.facebook.soloader:soloader:0.10.5] /Users/logicrays/.gradle/caches/transforms-3/57ae93bb18c520f4e44f5748f18b3c3f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+256            android:name="com.facebook.soloader.enabled"
+256-->[com.facebook.soloader:soloader:0.10.5] /Users/logicrays/.gradle/caches/transforms-3/57ae93bb18c520f4e44f5748f18b3c3f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+257            android:value="false" />
+257-->[com.facebook.soloader:soloader:0.10.5] /Users/logicrays/.gradle/caches/transforms-3/57ae93bb18c520f4e44f5748f18b3c3f/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+258
+259        <activity
+259-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+260            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+260-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+261            android:excludeFromRecents="true"
+261-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+262            android:exported="true"
+262-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+263            android:launchMode="singleTask"
+263-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+264            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+264-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+265            <intent-filter>
+265-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+266                <action android:name="android.intent.action.VIEW" />
+266-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:13-65
+266-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:21-62
+267
+268                <category android:name="android.intent.category.DEFAULT" />
+268-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:13-72
+268-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:23-69
+269                <category android:name="android.intent.category.BROWSABLE" />
+269-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+269-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+270
+271                <data
+271-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:13-71
+272                    android:host="firebase.auth"
+273                    android:path="/"
+274                    android:scheme="genericidp" />
+275            </intent-filter>
+276        </activity>
+277        <activity
+277-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+278            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+278-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+279            android:excludeFromRecents="true"
+279-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+280            android:exported="true"
+280-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+281            android:launchMode="singleTask"
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+282-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+283            <intent-filter>
+283-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+284                <action android:name="android.intent.action.VIEW" />
+284-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:13-65
+284-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:72:21-62
+285
+286                <category android:name="android.intent.category.DEFAULT" />
+286-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:13-72
+286-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:23-69
+287                <category android:name="android.intent.category.BROWSABLE" />
+287-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+287-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+288
+289                <data
+289-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:74:13-71
+290                    android:host="firebase.auth"
+291                    android:path="/"
+292                    android:scheme="recaptcha" />
+293            </intent-filter>
+294        </activity>
+295
+296        <service
+296-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+297            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+297-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+298            android:enabled="true"
+298-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+299            android:exported="false" >
+299-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+300            <intent-filter>
+300-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+301                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+301-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+301-->[com.google.firebase:firebase-auth:21.0.1] /Users/logicrays/.gradle/caches/transforms-3/497aca238d98984521de9697f0f4f1bb/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+302
+303                <category android:name="android.intent.category.DEFAULT" />
+303-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:13-72
+303-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:73:23-69
+304            </intent-filter>
+305        </service>
+306
+307        <provider
+307-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:23:9-31:20
+308            android:name="com.canhub.cropper.CropFileProvider"
+308-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:24:13-63
+309            android:authorities="com.the007.the007percentapp.cropper.fileprovider"
+309-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:25:13-72
+310            android:exported="false"
+310-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:26:13-37
+311            android:grantUriPermissions="true" >
+311-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:27:13-47
+312            <meta-data
+312-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+313                android:name="android.support.FILE_PROVIDER_PATHS"
+313-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+314                android:resource="@xml/library_file_paths" />
+314-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+315        </provider>
+316
+317        <activity
+317-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:33:9-35:39
+318            android:name="com.canhub.cropper.CropImageActivity"
+318-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:34:13-64
+319            android:exported="true" /> <!-- This is here because the library did not update yet to Android 12 so we force the exported value when merging manifests -->
+319-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:35:13-36
+320        <activity
+320-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:38:9-45:20
+321            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+321-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:39:13-99
+322            android:exported="true"
+322-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:40:13-36
+323            android:theme="@android:style/Theme" >
+323-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:41:13-49
+324            <intent-filter>
+324-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:42:13-44:29
+325                <action android:name="android.intent.action.MAIN" />
+325-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:13-65
+325-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:21-62
+326            </intent-filter>
+327        </activity>
+328        <activity
+328-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:46:9-53:20
+329            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+329-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:47:13-95
+330            android:exported="true"
+330-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:48:13-36
+331            android:theme="@android:style/Theme" >
+331-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:49:13-49
+332            <intent-filter>
+332-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:42:13-44:29
+333                <action android:name="android.intent.action.MAIN" />
+333-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:13-65
+333-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:21-62
+334            </intent-filter>
+335        </activity>
+336        <activity
+336-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:54:9-61:20
+337            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+337-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:55:13-103
+338            android:exported="true"
+338-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:56:13-36
+339            android:theme="@android:style/Theme.Dialog" >
+339-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:57:13-56
+340            <intent-filter>
+340-->[com.github.CanHub:Android-Image-Cropper:4.1.0] /Users/logicrays/.gradle/caches/transforms-3/e79aa4ecf78d737a6a6503bce921668c/transformed/jetified-Android-Image-Cropper-4.1.0/AndroidManifest.xml:42:13-44:29
+341                <action android:name="android.intent.action.MAIN" />
+341-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:13-65
+341-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:36:21-62
+342            </intent-filter>
+343        </activity>
+344
+345        <provider
+345-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:29:9-37:20
+346            android:name="androidx.startup.InitializationProvider"
+346-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:30:13-67
+347            android:authorities="com.the007.the007percentapp.androidx-startup"
+347-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:31:13-68
+348            android:exported="false" >
+348-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:32:13-37
+349            <meta-data
+349-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:34:13-36:52
+350                android:name="androidx.work.WorkManagerInitializer"
+350-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:35:17-68
+351                android:value="androidx.startup" />
+351-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:36:17-49
+352            <meta-data
+352-->[androidx.emoji2:emoji2:1.0.0] /Users/logicrays/.gradle/caches/transforms-3/76faa5a1406d0dd4975dc6f4bd24c14c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+353                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+353-->[androidx.emoji2:emoji2:1.0.0] /Users/logicrays/.gradle/caches/transforms-3/76faa5a1406d0dd4975dc6f4bd24c14c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+354                android:value="androidx.startup" />
+354-->[androidx.emoji2:emoji2:1.0.0] /Users/logicrays/.gradle/caches/transforms-3/76faa5a1406d0dd4975dc6f4bd24c14c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+355            <meta-data
+355-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/logicrays/.gradle/caches/transforms-3/e2d00d18852da8b86ea41343e90a7766/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+356                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+356-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/logicrays/.gradle/caches/transforms-3/e2d00d18852da8b86ea41343e90a7766/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+357                android:value="androidx.startup" />
+357-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/logicrays/.gradle/caches/transforms-3/e2d00d18852da8b86ea41343e90a7766/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+358        </provider>
+359
+360        <service
+360-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:39:9-45:35
+361            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+361-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:40:13-88
+362            android:directBootAware="false"
+362-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:41:13-44
+363            android:enabled="@bool/enable_system_alarm_service_default"
+363-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:42:13-72
+364            android:exported="false" />
+364-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:43:13-37
+365        <service
+365-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:46:9-52:35
+366            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+366-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:47:13-84
+367            android:directBootAware="false"
+367-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:48:13-44
+368            android:enabled="@bool/enable_system_job_service_default"
+368-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:49:13-70
+369            android:exported="true"
+369-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:50:13-36
+370            android:permission="android.permission.BIND_JOB_SERVICE" />
+370-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:51:13-69
+371        <service
+371-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:53:9-59:35
+372            android:name="androidx.work.impl.foreground.SystemForegroundService"
+372-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:54:13-81
+373            android:directBootAware="false"
+373-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:55:13-44
+374            android:enabled="@bool/enable_system_foreground_service_default"
+374-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:56:13-77
+375            android:exported="false" />
+375-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:57:13-37
+376
+377        <receiver
+377-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:61:9-66:35
+378            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+378-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:62:13-88
+379            android:directBootAware="false"
+379-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:63:13-44
+380            android:enabled="true"
+380-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:64:13-35
+381            android:exported="false" />
+381-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:65:13-37
+382        <receiver
+382-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:67:9-77:20
+383            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+383-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:68:13-106
+384            android:directBootAware="false"
+384-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:69:13-44
+385            android:enabled="false"
+385-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:70:13-36
+386            android:exported="false" >
+386-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:71:13-37
+387            <intent-filter>
+387-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:73:13-76:29
+388                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+388-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:17-87
+388-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:74:25-84
+389                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+389-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:17-90
+389-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:75:25-87
+390            </intent-filter>
+391        </receiver>
+392        <receiver
+392-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:78:9-88:20
+393            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+393-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:79:13-104
+394            android:directBootAware="false"
+394-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:80:13-44
+395            android:enabled="false"
+395-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:81:13-36
+396            android:exported="false" >
+396-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:82:13-37
+397            <intent-filter>
+397-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:84:13-87:29
+398                <action android:name="android.intent.action.BATTERY_OKAY" />
+398-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:17-77
+398-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:85:25-74
+399                <action android:name="android.intent.action.BATTERY_LOW" />
+399-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:17-76
+399-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:86:25-73
+400            </intent-filter>
+401        </receiver>
+402        <receiver
+402-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:89:9-99:20
+403            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+403-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:90:13-104
+404            android:directBootAware="false"
+404-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:91:13-44
+405            android:enabled="false"
+405-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:92:13-36
+406            android:exported="false" >
+406-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:93:13-37
+407            <intent-filter>
+407-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:95:13-98:29
+408                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+408-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:17-83
+408-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:96:25-80
+409                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+409-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:17-82
+409-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:97:25-79
+410            </intent-filter>
+411        </receiver>
+412        <receiver
+412-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:100:9-109:20
+413            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+413-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:101:13-103
+414            android:directBootAware="false"
+414-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:102:13-44
+415            android:enabled="false"
+415-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:103:13-36
+416            android:exported="false" >
+416-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:104:13-37
+417            <intent-filter>
+417-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:106:13-108:29
+418                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+418-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:17-79
+418-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:107:25-76
+419            </intent-filter>
+420        </receiver>
+421        <receiver
+421-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:110:9-121:20
+422            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+422-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:111:13-88
+423            android:directBootAware="false"
+423-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:112:13-44
+424            android:enabled="false"
+424-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:113:13-36
+425            android:exported="false" >
+425-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:114:13-37
+426            <intent-filter>
+426-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:116:13-120:29
+427                <action android:name="android.intent.action.BOOT_COMPLETED" />
+427-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:17-79
+427-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:25-76
+428                <action android:name="android.intent.action.TIME_SET" />
+428-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:17-73
+428-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:118:25-70
+429                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+429-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:17-81
+429-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:119:25-78
+430            </intent-filter>
+431        </receiver>
+432        <receiver
+432-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:122:9-131:20
+433            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+433-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:123:13-99
+434            android:directBootAware="false"
+434-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:124:13-44
+435            android:enabled="@bool/enable_system_alarm_service_default"
+435-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:125:13-72
+436            android:exported="false" >
+436-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:126:13-37
+437            <intent-filter>
+437-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:128:13-130:29
+438                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+438-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:17-98
+438-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:129:25-95
+439            </intent-filter>
+440        </receiver>
+441        <receiver
+441-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:132:9-142:20
+442            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+442-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:133:13-78
+443            android:directBootAware="false"
+443-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:134:13-44
+444            android:enabled="true"
+444-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:135:13-35
+445            android:exported="true"
+445-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:136:13-36
+446            android:permission="android.permission.DUMP" >
+446-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:137:13-57
+447            <intent-filter>
+447-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:139:13-141:29
+448                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+448-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:17-88
+448-->[androidx.work:work-runtime:2.8.0] /Users/logicrays/.gradle/caches/transforms-3/b48394ce765426519302ec146bfe3e58/transformed/work-runtime-2.8.0/AndroidManifest.xml:140:25-85
+449            </intent-filter>
+450        </receiver>
+451
+452        <service
+452-->[androidx.room:room-runtime:2.5.0] /Users/logicrays/.gradle/caches/transforms-3/609d921ae30ace8f687880278f72fb5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+453            android:name="androidx.room.MultiInstanceInvalidationService"
+453-->[androidx.room:room-runtime:2.5.0] /Users/logicrays/.gradle/caches/transforms-3/609d921ae30ace8f687880278f72fb5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+454            android:directBootAware="true"
+454-->[androidx.room:room-runtime:2.5.0] /Users/logicrays/.gradle/caches/transforms-3/609d921ae30ace8f687880278f72fb5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+455            android:exported="false" />
+455-->[androidx.room:room-runtime:2.5.0] /Users/logicrays/.gradle/caches/transforms-3/609d921ae30ace8f687880278f72fb5f/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+456
+457        <meta-data
+457-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/logicrays/.gradle/caches/transforms-3/2e14f05a14ff51e4407bd7398d1f2ae9/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+458            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+458-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/logicrays/.gradle/caches/transforms-3/2e14f05a14ff51e4407bd7398d1f2ae9/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+459            android:value="GlideModule" />
+459-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/logicrays/.gradle/caches/transforms-3/2e14f05a14ff51e4407bd7398d1f2ae9/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+460
+461        <provider
+461-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:14:9-22:20
+462            android:name="com.luck.picture.lib.PictureFileProvider"
+462-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:15:13-68
+463            android:authorities="com.the007.the007percentapp.luckProvider"
+463-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:16:13-64
+464            android:exported="false"
+464-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:17:13-37
+465            android:grantUriPermissions="true" >
+465-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:18:13-47
+466            <meta-data
+466-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+467                android:name="android.support.FILE_PROVIDER_PATHS"
+467-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+468                android:resource="@xml/file_paths" />
+468-->[:react-native-image-picker] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+469        </provider>
+470
+471        <activity
+471-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:24:9-26:77
+472            android:name="com.luck.picture.lib.PictureSelectorActivity"
+472-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:25:13-72
+473            android:configChanges="orientation|keyboardHidden|screenSize" />
+473-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:26:13-74
+474        <activity
+474-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:27:9-29:77
+475            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+475-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:28:13-83
+476            android:configChanges="orientation|keyboardHidden|screenSize" />
+476-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:29:13-74
+477        <activity
+477-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:30:9-33:64
+478            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+478-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:31:13-83
+479            android:configChanges="orientation|keyboardHidden|screenSize"
+479-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:32:13-74
+480            android:theme="@style/Picture.Theme.Translucent" />
+480-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:33:13-61
+481        <activity
+481-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:34:9-36:77
+482            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+482-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:35:13-76
+483            android:configChanges="orientation|keyboardHidden|screenSize" />
+483-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:36:13-74
+484        <activity
+484-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:37:9-39:77
+485            android:name="com.luck.picture.lib.PicturePreviewActivity"
+485-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:38:13-71
+486            android:configChanges="orientation|keyboardHidden|screenSize" />
+486-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:39:13-74
+487        <activity
+487-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:40:9-42:77
+488            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+488-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:41:13-90
+489            android:configChanges="orientation|keyboardHidden|screenSize" />
+489-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:42:13-74
+490        <activity
+490-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:43:9-46:50
+491            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+491-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:44:13-73
+492            android:configChanges="orientation|keyboardHidden|screenSize"
+492-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:45:13-74
+493            android:screenOrientation="sensor" />
+493-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:46:13-47
+494        <activity
+494-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:47:9-49:77
+495            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+495-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:48:13-79
+496            android:configChanges="orientation|keyboardHidden|screenSize" />
+496-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:49:13-74
+497        <activity
+497-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:50:9-52:77
+498            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+498-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:51:13-73
+499            android:configChanges="orientation|keyboardHidden|screenSize" />
+499-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:52:13-74
+500        <activity
+500-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:53:9-55:61
+501            android:name="com.yalantis.ucrop.UCropActivity"
+501-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:54:13-60
+502            android:theme="@style/Base.Theme.NoActionBar" />
+502-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:55:13-58
+503        <activity
+503-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:56:9-58:61
+504            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+504-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:57:13-74
+505            android:theme="@style/Base.Theme.NoActionBar" />
+505-->[io.github.lucksiege:pictureselector:v2.7.3-rc08] /Users/logicrays/.gradle/caches/transforms-3/63201e95e0045e25ae745280e4b1d48c/transformed/jetified-pictureselector-v2.7.3-rc08/AndroidManifest.xml:58:13-58
+506        <!--
+507        Service for holding metadata. Cannot be instantiated.
+508        Metadata will be merged from other manifests.
+509        -->
+510        <service
+510-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/logicrays/.gradle/caches/transforms-3/316cf91b2e0d1361a71efc42d9a65f05/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:31:9-35:45
+511            android:name="androidx.camera.core.impl.MetadataHolderService"
+511-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/logicrays/.gradle/caches/transforms-3/316cf91b2e0d1361a71efc42d9a65f05/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:32:13-75
+512            android:enabled="false"
+512-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/logicrays/.gradle/caches/transforms-3/316cf91b2e0d1361a71efc42d9a65f05/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:33:13-36
+513            android:exported="false" />
+513-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/logicrays/.gradle/caches/transforms-3/316cf91b2e0d1361a71efc42d9a65f05/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:34:13-37
+514
+515        <activity
+515-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+516            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+516-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+517            android:excludeFromRecents="true"
+517-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+518            android:exported="false"
+518-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+519            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+519-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+520        <!--
+521            Service handling Google Sign-In user revocation. For apps that do not integrate with
+522            Google Sign-In, this service will never be started.
+523        -->
+524        <service
+524-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+525            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+525-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+526            android:exported="true"
+526-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+527            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+527-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+528            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+528-->[com.google.android.gms:play-services-auth:19.2.0] /Users/logicrays/.gradle/caches/transforms-3/1fd98961ef6d85fae4177b4f863b7b7c/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+529        <uses-library
+529-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:39:9-41:40
+530            android:name="org.apache.http.legacy"
+530-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:40:13-50
+531            android:required="false" />
+531-->[com.google.android.gms:play-services-maps:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/4847e878bce4b9d6285b20edabae3696/transformed/jetified-play-services-maps-18.0.0/AndroidManifest.xml:41:13-37
+532
+533        <activity
+533-->[com.google.android.gms:play-services-base:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/afcbe4eb3936157453eb1222809bf579/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+534            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+534-->[com.google.android.gms:play-services-base:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/afcbe4eb3936157453eb1222809bf579/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+535            android:exported="false"
+535-->[com.google.android.gms:play-services-base:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/afcbe4eb3936157453eb1222809bf579/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+536            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+536-->[com.google.android.gms:play-services-base:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/afcbe4eb3936157453eb1222809bf579/transformed/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+537
+538        <receiver
+538-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+539            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+539-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+540            android:exported="true"
+540-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+541            android:permission="com.google.android.c2dm.permission.SEND" >
+541-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+542            <intent-filter>
+542-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-27:29
+543                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+543-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-81
+543-->[:@react-native-firebase_messaging] /Users/logicrays/Documents/Kaushik/The007Percent/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-78
+544            </intent-filter>
+545        </receiver>
+546        <!--
+547             FirebaseMessagingService performs security checks at runtime,
+548             but set to not exported to explicitly avoid allowing another app to call it.
+549        -->
+550        <service
+550-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+551            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+551-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+552            android:directBootAware="true"
+552-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+553            android:exported="false" >
+553-->[com.google.firebase:firebase-messaging:22.0.0] /Users/logicrays/.gradle/caches/transforms-3/fabd6feb480f460288877e84ab8e13d1/transformed/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+554            <intent-filter android:priority="-500" >
+554-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:64:13-66:29
+555                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+555-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:17-78
+555-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:65:25-75
+556            </intent-filter>
+557        </service>
+558
+559        <provider
+559-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+560            android:name="com.google.firebase.provider.FirebaseInitProvider"
+560-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+561            android:authorities="com.the007.the007percentapp.firebaseinitprovider"
+561-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+562            android:directBootAware="true"
+562-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+563            android:exported="false"
+563-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+564            android:initOrder="100" />
+564-->[com.google.firebase:firebase-common:20.0.0] /Users/logicrays/.gradle/caches/transforms-3/0a2416c35638ae156eb455a4a91b00a8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+565
+566        <receiver
+566-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:29:9-33:20
+567            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+567-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:30:13-85
+568            android:enabled="true"
+568-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:31:13-35
+569            android:exported="false" >
+569-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:32:13-37
+570        </receiver>
+571
+572        <service
+572-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:35:9-38:40
+573            android:name="com.google.android.gms.measurement.AppMeasurementService"
+573-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:36:13-84
+574            android:enabled="true"
+574-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:37:13-35
+575            android:exported="false" />
+575-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:38:13-37
+576        <service
+576-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:39:9-43:72
+577            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+577-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:40:13-87
+578            android:enabled="true"
+578-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:41:13-35
+579            android:exported="false"
+579-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:42:13-37
+580            android:permission="android.permission.BIND_JOB_SERVICE" />
+580-->[com.google.android.gms:play-services-measurement:19.0.2] /Users/logicrays/.gradle/caches/transforms-3/2d1b09859792e0d970327715af6c5ec5/transformed/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:43:13-69
+581
+582        <meta-data
+582-->[com.google.android.gms:play-services-basement:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/2bcebf8efaa30380443788c209fd26a8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+583            android:name="com.google.android.gms.version"
+583-->[com.google.android.gms:play-services-basement:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/2bcebf8efaa30380443788c209fd26a8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+584            android:value="@integer/google_play_services_version" />
+584-->[com.google.android.gms:play-services-basement:18.0.0] /Users/logicrays/.gradle/caches/transforms-3/2bcebf8efaa30380443788c209fd26a8/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+585
+586        <service
+586-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+587            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+587-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+588            android:exported="false" >
+588-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+589            <meta-data
+589-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+590                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+590-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+591                android:value="cct" />
+591-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/2aa90b71dbb0b0f0ab7e01eb1003bc23/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+592        </service>
+593        <service
+593-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+594            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+594-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+595            android:exported="false"
+595-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+596            android:permission="android.permission.BIND_JOB_SERVICE" >
+596-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+597        </service>
+598
+599        <receiver
+599-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+600            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+600-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+601            android:exported="false" /> <!-- Receiver Service -->
+601-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/logicrays/.gradle/caches/transforms-3/f4d24db8851391666ca9bdea1fd4260e/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+602        <service
+602-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:29:9-31:40
+603            android:name="app.notifee.core.ReceiverService"
+603-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:30:13-60
+604            android:exported="false" />
+604-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:31:13-37
+605
+606        <activity
+606-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:33:9-39:75
+607            android:name="app.notifee.core.NotificationReceiverActivity"
+607-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:34:13-73
+608            android:excludeFromRecents="true"
+608-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:35:13-46
+609            android:exported="true"
+609-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:36:13-36
+610            android:noHistory="true"
+610-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:37:13-37
+611            android:taskAffinity=""
+611-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:38:13-36
+612            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Foreground Service -->
+612-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:39:13-72
+613        <service
+613-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:42:9-44:40
+614            android:name="app.notifee.core.ForegroundService"
+614-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:43:13-62
+615            android:exported="false" />
+615-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:44:13-37
+616
+617        <receiver
+617-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:46:9-54:20
+618            android:name="app.notifee.core.RebootBroadcastReceiver"
+618-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:47:13-68
+619            android:exported="false" >
+619-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:48:13-37
+620            <intent-filter>
+620-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:54:13-58:29
+621                <action android:name="android.intent.action.BOOT_COMPLETED" />
+621-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:17-79
+621-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:25-76
+622                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+622-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:17-82
+622-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:25-79
+623                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+623-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:17-81
+623-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:25-79
+624            </intent-filter>
+625        </receiver>
+626        <receiver
+626-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:55:9-61:20
+627            android:name="app.notifee.core.AlarmPermissionBroadcastReceiver"
+627-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:56:13-77
+628            android:exported="true" >
+628-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:57:13-36
+629            <intent-filter>
+629-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:58:13-60:29
+630                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+630-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:59:17-107
+630-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:59:25-104
+631            </intent-filter>
+632        </receiver>
+633        <receiver
+633-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:62:9-70:20
+634            android:name="app.notifee.core.NotificationAlarmReceiver"
+634-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:63:13-70
+635            android:exported="false" >
+635-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:64:13-37
+636            <intent-filter>
+636-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:54:13-58:29
+637                <action android:name="android.intent.action.BOOT_COMPLETED" />
+637-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:17-79
+637-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:55:25-76
+638                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+638-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:17-82
+638-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:56:25-79
+639                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+639-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:17-81
+639-->/Users/logicrays/Documents/Kaushik/The007Percent/android/app/src/main/AndroidManifest.xml:57:25-79
+640            </intent-filter>
+641        </receiver> <!-- Broadcast Receiver -->
+642        <receiver
+642-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:73:9-81:20
+643            android:name="app.notifee.core.BlockStateBroadcastReceiver"
+643-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:74:13-72
+644            android:exported="false" >
+644-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:75:13-37
+645            <intent-filter>
+645-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:76:13-80:29
+646                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED" />
+646-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:77:17-85
+646-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:77:25-82
+647                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED" />
+647-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:78:17-102
+647-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:78:25-99
+648                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED" />
+648-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:79:17-108
+648-->[app.notifee:core:202108261754] /Users/logicrays/.gradle/caches/transforms-3/51027464d7fe7e730d7bd5b6460eccec/transformed/jetified-core-202108261754/AndroidManifest.xml:79:25-105
+649            </intent-filter>
+650        </receiver>
+651
+652        <meta-data
+652-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:13:9-15:37
+653            android:name="com.google.android.play.billingclient.version"
+653-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:14:13-73
+654            android:value="5.0.0" />
+654-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:15:13-34
+655
+656        <activity
+656-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:17:9-21:75
+657            android:name="com.android.billingclient.api.ProxyBillingActivity"
+657-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:18:13-78
+658            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+658-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:19:13-96
+659            android:exported="false"
+659-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:20:13-37
+660            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+660-->[com.android.billingclient:billing:5.0.0] /Users/logicrays/.gradle/caches/transforms-3/a24791ceed2fb5543b24e09ae841ae1e/transformed/jetified-billing-5.0.0/AndroidManifest.xml:21:13-72
+661    </application>
+662
+663</manifest>

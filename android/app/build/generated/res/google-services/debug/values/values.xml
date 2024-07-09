@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">193461492755-0sdjkjt215865jbhg0vrnenfkftil0ev.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://percent-25d5f.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">193461492755</string>
+    <string name="google_api_key" translatable="false">AIzaSyDRFlqbKgnaCOWejxLpvH9l9i4KyuWk8n4</string>
+    <string name="google_app_id" translatable="false">1:193461492755:android:1a82b1c0e83494a946b3e6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRFlqbKgnaCOWejxLpvH9l9i4KyuWk8n4</string>
+    <string name="google_storage_bucket" translatable="false">percent-25d5f.appspot.com</string>
+    <string name="project_id" translatable="false">percent-25d5f</string>
+</resources>

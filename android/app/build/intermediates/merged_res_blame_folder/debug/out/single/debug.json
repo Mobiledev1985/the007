@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xxxhdpi_launch.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xxxhdpi/launch.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xxhdpi_launch_screen.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xxhdpi/launch_screen.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xhdpi_launch_screen.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xhdpi/launch_screen.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xxxhdpi_ic_launcher.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xxxhdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-mdpi_launch_screen.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-mdpi/launch_screen.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xxxhdpi_logo_white.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xxxhdpi/logo_white.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-mdpi_ic_launcher.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-mdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xhdpi_ic_launcher.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xhdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xxhdpi_ic_launcher.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xxhdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xxxhdpi_logo_new.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xxxhdpi/logo_new.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/font_raleway_regular.ttf.flat",
+        "source": "com.the007.the007percentapp-main-57:/font/raleway_regular.ttf"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-hdpi_launch_screen.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-hdpi/launch_screen.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-hdpi_ic_launcher.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-hdpi/ic_launcher.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable_notif_icon.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable/notif_icon.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/drawable-xxxhdpi_launch_screen.jpg.flat",
+        "source": "com.the007.the007percentapp-main-57:/drawable-xxxhdpi/launch_screen.jpg"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/layout_launch_screen.xml.flat",
+        "source": "com.the007.the007percentapp-main-57:/layout/launch_screen.xml"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.the007.the007percentapp-merged_res-55:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.the007.the007percentapp-main-57:/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]
