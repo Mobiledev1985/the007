@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-thumbnail/android/build.gradle b/node_modules/react-native-thumbnail/android/build.gradle
+index 1f28a4d..e28c798 100644
+--- a/node_modules/react-native-thumbnail/android/build.gradle
++++ b/node_modules/react-native-thumbnail/android/build.gradle
+@@ -33,6 +33,6 @@ repositories {
+ }
+ 
+ dependencies {
+-    compile 'com.facebook.react:react-native:+'
++    implementation 'com.facebook.react:react-native:+'
+ }
+   
+\ No newline at end of file
